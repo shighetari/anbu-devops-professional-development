@@ -1,4 +1,7 @@
-![alt text](https://i.imgur.com/3V0QcFK.png)
+
+<div style="text-align:center;">
+  <img src="https://i.imgur.com/3V0QcFK.png" style="border: 1px solid black;"/>
+</div>
 # Introduction
 
 This document outlines the plan for the ANBU DevOps project. The goal of this project is to provide a training environment for junior developers to practice best practice concepts and solid coding patterns, all within a project that has proper engineering concepts and architecture, with devops concepts taken into practice.
