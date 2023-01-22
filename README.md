@@ -1,7 +1,15 @@
+<div style="display: flex; justify-content: center;">
+  <img src="https://i.imgur.com/3V0QcFK.png" style="margin: 0 10px; width: 200px; height: 200px; border: 5px double purple; border-radius: 25px; box-shadow: 5px 10px #888888;"/>
+  <img src="https://i.imgur.com/1InyEkM.png" style="margin: 0 10px; width: 200px; height: 200px; border: 5px double purple; border-radius: 25px; box-shadow: 5px 10px #888888;"/>
 
-<div style="text-align:center;">
-  <img src="https://i.imgur.com/3V0QcFK.png" style="border: 1px solid black;"/>
+  <img src="https://i.imgur.com/NaxmjNJ.png" style="margin: 0 10px; width: 200px; height: 200px; border: 5px double purple; border-radius: 25px; box-shadow: 5px 10px #888888;"/>
+  <img src="https://i.imgur.com/P3ZWxVC.png" style="margin: 0 10px; width: 200px; height: 200px; border: 5px double purple; border-radius: 25px; box-shadow: 5px 10px #888888;"/>
+  <img src="https://i.imgur.com/gOPa3kd.png" style="margin: 0 10px; width: 200px; height: 200px; border: 5px double purple; border-radius: 25px; box-shadow: 5px 10px #888888;"/>
+    <img src="https://i.imgur.com/gXT29dX.png" style="margin: 0 10px; width: 200px; height: 200px; border: 5px double purple; border-radius: 25px; box-shadow: 5px 10px #888888;"/>
+  <img src="https://i.imgur.com/55SVzHr.png" style="margin: 0 10px; width: 200px; height: 200px; border: 5px double purple; border-radius: 25px; box-shadow: 5px 10px #888888;"/>
+  <img src="https://i.imgur.com/cUxZvuf.png" style="margin: 0 10px; width: 200px; height: 200px; border: 5px double purple; border-radius: 25px; box-shadow: 5px 10px #888888;"/>
 </div>
+
 # Introduction
 
 This document outlines the plan for the ANBU DevOps project. The goal of this project is to provide a training environment for junior developers to practice best practice concepts and solid coding patterns, all within a project that has proper engineering concepts and architecture, with devops concepts taken into practice.
