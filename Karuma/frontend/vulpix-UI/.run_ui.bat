@@ -1,9 +1,13 @@
 @echo off
 
-rem navigate to the ui directory 
-cd /d %~dp0
-cd ../..
+rem Stop any running containers
+docker container stop %docker container ls -aq%
 
-rem build the image and spin up the container
+rem Remove any existing containers
+docker container rm %docker container ls -aq%
+
+rem Build the container
 docker build -t app .
-docker run -it -p 4200:4200 app
+
+rem Run the container
+docker run -it --rm -p 4200:4200 app
