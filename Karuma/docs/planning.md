@@ -73,3 +73,12 @@ The main root directory of the project is called "ANBU DevOps" and it contains a
 │   └── 💻 .vscode
 
 ```
+
+
+|Link|Description| :computer: |
+|----|-----------| :----: |
+|[Getting Started](https://github.com/devops-project/docs/getting-started.md)|A guide to getting :rocket: rolling with the project|
+|[Contributing](https://github.com/devops-project/docs/contributing.md)|Information on how to :raised_hands: collaborate on the project|
+|[Development Guide](https://github.com/devops-project/docs/development-guide.md)|A guide to :hammer: writing code for the project|
+|[Deployment Guide](https://github.com/devops-project/docs/deployment-guide.md)|A guide to :ship: deploying the project|
+|[Documentation](https://github.com/devops-project/docs/)|A comprehensive :books: guide to the project|
