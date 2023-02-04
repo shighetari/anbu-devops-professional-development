@@ -1,4 +1,26 @@
-# 🚀 ANBU: The Ultimate DevOps and Software Engineering Destination
+# 🚀 ANBU Code Base 💻
+
+Welcome to the heart of ANBU's software engineering and DevOps solutions!
+
+Here, you'll find all the latest and greatest code, tools, and technologies that we use to deliver the best possible results to our clients. Whether you're a software engineer, DevOps professional, or just curious about what we do, you'll find everything you need here to get started.
+
+## 📂 Directories
+
+- `saas`: This directory contains all the code for ANBU SaaS, our software-as-a-service offering that provides businesses with the tools and support they need to streamline their software development and operations processes.
+- `tools`: This directory contains all the tools and utilities that we use to build and maintain our code base, including version control systems, continuous integration and deployment pipelines, testing frameworks, and more.
+- `docs`: This directory contains all the documentation for our code base, including guides, best practices, industry standards, and more.
+
+## 🤝 Contributing
+
+We welcome contributions from the community! If you're interested in contributing to the ANBU code base, please review the contributing guidelines.
+
+## 📄 License
+
+The ANBU code base is licensed under the MIT License.
+
+Happy coding! 🎉
+
+## 🚀 ANBU: The Ultimate DevOps and Software Engineering Destination
 
 ANBU is a revolutionary organization that provides businesses and individuals with top-notch software engineering and DevOps services. With an unwavering commitment to innovation and efficiency, ANBU leverages the latest technologies and methodologies to offer software solutions that are both impactful and scalable.
 
