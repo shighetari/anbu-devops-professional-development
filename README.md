@@ -1,22 +1,3 @@
-# 🚀 Welcome to ANBU
-
-ANBU is a cutting-edge organization specializing in DevOps and Software Engineering. Our mission is to deliver innovative and high-quality solutions that drive efficiency and effectiveness in the technology industry.
-
-## 💻 ANBU SaaS: Streamlining DevOps and Software Engineering
-
-ANBU SaaS is the branch of ANBU that focuses on providing top-notch services in the field of DevOps and Software Engineering. Our team of experts leverages the latest technology and methodologies to help our clients optimize their software development and delivery processes.
-
-
-## 🛠️ Our Services
-
-ANBU S
-
-
-# 🚀 Welcome to ANBU and ANBU SaaS!
-
- dedicated to delivering high-quality software solutions that drive success for our clients. 
-
-
 # 💻 Welcome to ANBU! 
 ANBU is a premier DevOps and Software Engineering organization, Our name, ANBU, is inspired by the Japanese term for "elite squad,"
 and just like those highly trained operatives, we work tirelessly to ensure that our clients have the best technology solutions at their disposal.
