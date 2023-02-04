@@ -23,7 +23,7 @@ At ANBU SaaS, we believe in delivering value and excellence in everything we do.
 
 ## 💬 Get in Touch 
 
-If you're interested in working with ANBU or learning more about our services, we'd love to hear from you! Feel free to reach out to us at [anbu.saas@example.com](mailto:anbu.saas@anbu.app) or through our GitHub repository [shighetari/anbu-bot](https://github.com/shighetari/anbu-devops-professional-development). 
+If you're interested in working with ANBU or learning more about our services, we'd love to hear from you! Feel free to reach out to us at [anbu.saas@anbu.app](mailto:anbu.saas@anbu.app) or through our GitHub repository [shighetari/anbu-bot](https://github.com/shighetari/anbu-devops-professional-development). 
 
 We're always looking for exciting new projects and partnerships, so don't hesitate to contact us and see how we can help your business succeed.
 
