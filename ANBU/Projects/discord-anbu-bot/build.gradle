@@ -1,0 +1,42 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'com.anbu'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = JavaVersion.VERSION_11
+
+repositories {
+    mavenCentral()
+        maven {
+        url "https://jitpack.io"
+    }
+}
+
+dependencies {
+// implementation 'com.github.DV8FromTheWorld:JDA:4.6.0_121'
+implementation 'org.slf4j:slf4j-api:1.7.30'
+implementation 'org.slf4j:slf4j-simple:1.7.30'
+implementation 'com.discord4j:discord4j:3.2.3'
+
+}
+
+
+mainClassName = 'com.anbu.Main'
+
+jar {
+    manifest {
+        attributes 'Main-Class': mainClassName
+    }
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java']
+        }
+    }
+}
+
