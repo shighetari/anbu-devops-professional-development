@@ -1,39 +1,57 @@
 package com.anbu;
 
-import java.time.Instant;
-import discord4j.core.DiscordClient;
-import discord4j.core.DiscordClientBuilder;
-import discord4j.core.event.domain.message.MessageCreateEvent;
-import discord4j.core.object.entity.Message;
-import discord4j.core.object.entity.channel.TextChannel;
-import reactor.core.publisher.Mono;
+import java.io.IOException;
+
+import sx.blah.discord.api.ClientBuilder;
+import sx.blah.discord.api.IDiscordClient;
+import sx.blah.discord.handle.impl.events.MessageReceivedEvent;
+import sx.blah.discord.handle.obj.IMessage;
+import sx.blah.discord.util.DiscordException;
 
 public class Main {
-    public static void main(String[] args) {
-        // Create an instance of DiscordClientBuilder with your bot token
-        DiscordClientBuilder builder = DiscordClient.create("YOUR_BOT_TOKEN_HERE");
 
-        // Use the builder to create an instance of DiscordClient
-        DiscordClient client = builder.build();
+        public static void main(String[] args) {
+                // Your bot's token
+                String token = "YOUR_BOT_TOKEN_HERE";
 
-        // Use the builder to create an instance of DiscordClient
-        // DiscordClient client = (DiscordClient) builder.build();
+                // Create a new instance of the Discord client
+                IDiscordClient client = createClient(token);
 
-        // Subscribe to the MessageCreateEvent to listen for new messages
-        client.getEventDispatcher().on(MessageCreateEvent.class)
-                // Map the event to get the message object
-                .map(MessageCreateEvent::getMessage)
-                // Filter to only respond to messages with content "!ping"
-                .filter(message -> message.getContent().orElse("").equals("!ping"))
-                // Flat map to get the channel object
-                .flatMap(Message::getChannel)
-                // Create a response message with the current latency
-                .flatMap(channel -> channel.createMessage("Pong! Latency: "
-                        + (Instant.now().toEpochMilli() - message.getTimestamp().toEpochMilli() + "ms")))
-                // Subscribe to the response message
-                .subscribe();
+                // Register a listener for the MessageReceivedEvent
+                client.getDispatcher().registerListener(new BotListener());
+        }
 
-        // Log in to Discord using the client
-        client.login().block();
-    }
+        public static IDiscordClient createClient(String token) {
+                // Create a new client builder
+                ClientBuilder clientBuilder = new ClientBuilder();
+
+                // Set the bot's token
+                clientBuilder.withToken(token);
+
+                try {
+                        // Build and return the client
+                        return clientBuilder.login();
+                } catch (DiscordException e) {
+                        // Print the exception and return null
+                        System.err.println("Error logging in to Discord: " + e.getMessage());
+                        return null;
+                }
+        }
+}
+
+class BotListener extends ListenerAdapter {
+        @Override
+        public void onMessageReceived(MessageReceivedEvent event) {
+                // Get the message
+                IMessage message = event.getMessage();
+
+                // Check if the message is from a bot
+                if (message.getAuthor().isBot()) {
+                        return;
+                }
+
+                // Print the message content
+                System.out.println(
+                                "Message received from " + message.getAuthor().getName() + ": " + message.getContent());
+        }
 }
