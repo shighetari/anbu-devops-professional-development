@@ -11,4 +11,4 @@ logs
 .DS_Store
 
 # Ignore .env file
-.env
+ANBU/Projects/discord-anbu-bot-js/.env
