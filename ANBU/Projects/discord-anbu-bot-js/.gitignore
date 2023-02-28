@@ -2,6 +2,9 @@
 node_modules
 
 # Ignore .env file
+*.ENV
+
+# Ignore .env file
 *.env
 
 # Ignore logs directory
