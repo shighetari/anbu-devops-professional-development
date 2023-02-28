@@ -9,3 +9,6 @@ logs
 
 # Ignore .DS_Store files on macOS
 .DS_Store
+
+# Ignore .env file
+ANBU/Projects/discord-anbu-bot-js/.env
