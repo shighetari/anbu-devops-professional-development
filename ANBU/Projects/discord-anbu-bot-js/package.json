@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "discord.js": "^14.7.1",
+    "@discordjs/rest": "^1.6.0",
+    "discord.js": "^13.1.0",
     "dotenv": "^16.0.3"
   }
 }
