@@ -1,7 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import anbuLogo from './assets/anbu.png'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -30,7 +28,7 @@ function App() {
           Edit <code>src/App.tsx</code> to get started with development! <br />
           Sign up to our discord bellow to join our community! <br />
           <a href="https://discord.gg/ANBUSolutions" target="_blank">
-            <img src={anbuLogo} className="logo" alt="Vite logo" />
+            <img src={anbuLogo} className="logo" alt="ANBU logo" />
           </a>
           
         </p>
