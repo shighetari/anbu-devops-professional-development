@@ -9,13 +9,13 @@ function App() {
     <div className="App">
       <div>
         <a href="https://discord.gg/ANBUSolutions" target="_blank">
-          <img src={anbuLogo} className="logo react" alt="React logo" />
+          <img src={anbuLogo} className="logo anbu" alt="anbu logo" />
         </a>
         <a href="https://discord.gg/ANBUSolutions" target="_blank">
-          <img src={anbuLogo} className="logo react" alt="React logo" />
+          <img src={anbuLogo} className="logo anbu" alt="anbu logo" />
         </a>
         <a href="https://discord.gg/ANBUSolutions" target="_blank">
-          <img src={anbuLogo} className="logo react" alt="React logo" />
+          <img src={anbuLogo} className="logo anbu" alt="anbu logo" />
         </a>
       </div>
       <h1>ANBU Solutions</h1>
